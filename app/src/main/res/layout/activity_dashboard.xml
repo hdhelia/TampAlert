@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".MainActivity" >
+    <!--android:background="#ee96be"-->
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/female"
+        android:layout_margin="40dp"
+        />
+
+    <ImageView
+        android:id="@+id/profile_link"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/users"
+        android:layout_alignParentRight="true"
+        android:layout_margin="20dp"
+        />
+
+    <Button
+        android:id="@+id/tamp_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="30dp"
+        android:paddingTop="30dp"
+        android:paddingLeft="80dp"
+        android:paddingRight="80dp"
+        android:background="@drawable/button_emergency"
+        android:text="TampAlert!"
+        android:textAllCaps="false"
+        android:textSize="30dp"
+        android:textColor="#F5F2F3"
+        android:fontFamily="@font/afta_sans_thin"
+        android:topLeftRadius="100000dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

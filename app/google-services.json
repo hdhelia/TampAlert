@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "572781587615",
+    "firebase_url": "https://tampalert-database.firebaseio.com",
+    "project_id": "tampalert-database",
+    "storage_bucket": "tampalert-database.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:572781587615:android:ec407734c229738d9986aa",
+        "android_client_info": {
+          "package_name": "com.example.harshal.hackholyoke"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "572781587615-c533t780b1riii356gr7j5offtvnmtjb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6AMcZbW3Lmsz6RJK3CtO3EBIBc3qH19o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "572781587615-c533t780b1riii356gr7j5offtvnmtjb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".MainActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        tools:layout_editor_absoluteY="69dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TampAlert"
+            android:layout_alignParentTop="true"
+            android:fontFamily="sans-serif-black"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:layout_marginTop="30dp"
+            android:textSize="50dp"
+
+
+
+            />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="140dp"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="132dp"
+            android:layout_marginBottom="250dp"
+            android:text="Email"
+            android:textColor="#111111"
+            android:textColorHighlight="#111111"
+            android:textColorHint="#111111"
+            android:textColorLink="#111111"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="140dp"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="132dp"
+            android:layout_marginBottom="210dp"
+            android:text="Credit/Debit Card"
+            android:textColor="#111111"
+            android:textColorHighlight="#111111"
+            android:textColorHint="#111111"
+            android:textColorLink="#111111"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="140dp"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginBottom="290dp"
+            android:text="Phone number"
+            android:textColor="#111111"
+            android:textColorHighlight="#111111"
+            android:textColorHint="#111111"
+            android:textColorLink="#111111"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="140dp"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="200dp"
+            android:layout_marginBottom="330dp"
+            android:text="Name"
+            android:textColor="#111111"
+            android:textColorHighlight="#111111"
+            android:textColorHint="#111111"
+            android:textColorLink="#111111"
+            android:textSize="18sp"
+            app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="131dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="140dp"
+            android:layout_marginEnd="140dp"
+            android:layout_marginBottom="90dp"
+            android:background="@drawable/button_emergency"
+            android:text="Get It!"
+            android:textSize="15dp" />
+
+
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="221dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="330dp"
+        android:inputType="text"
+        android:textColor="#111111"
+        android:textColorHighlight="#111111"
+        android:textColorHint="#111111"
+        android:textColorLink="#111111"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="221dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="290dp"
+        android:inputType="text"
+        android:textColor="#111111"
+        android:textColorHighlight="#111111"
+        android:textColorHint="#111111"
+        android:textColorLink="#111111"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="221dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="250dp"
+        android:inputType="text"
+        android:textColor="#111111"
+        android:textColorHighlight="#111111"
+        android:textColorHint="#111111"
+        android:textColorLink="#111111"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="221dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="210dp"
+        android:hint="_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _"
+        android:inputType="text"
+        android:textColor="#111111"
+        android:textColorHighlight="#111111"
+        android:textColorHint="#111111"
+        android:textColorLink="#111111"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="110dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="125.5dp"
+        android:layout_marginBottom="170dp"
+        android:hint="MM/YY"
+        android:inputType="text"
+        android:textColor="#111111"
+        android:textColorHighlight="#111111"
+        android:textColorHint="#111111"
+        android:textColorLink="#111111"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="110dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="170dp"
+        android:hint="CVV"
+        android:inputType="text"
+        android:textColor="#111111"
+        android:textColorHighlight="#111111"
+        android:textColorHint="#111111"
+        android:textColorLink="#111111"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
